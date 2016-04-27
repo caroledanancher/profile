@@ -1,0 +1,83 @@
+body {
+background: rgb(230,230,230);
+font-family: 'Open Sans', sans-serif;
+font-weight: 300;
+color: rgb(10,10,10);
+background-image:url(background.jpg);
+}
+
+h1, h2 {
+  font-family: 'Lobster', cursive;
+  color: #637092;
+}
+
+h3, p {
+font-family: 'Open Sans', sans-serif;
+font-weight: 300;
+color: rgb(10,10,10);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(200,200,200);
+}
+
+a:hover{
+  color: #637092;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.container {
+  width: 500px;
+  margin: 30px auto;
+}
+
+
+.card {
+background: white;
+box-shadow: 1px 1px 2px rgb(180,180,180);
+padding: 30px;
+margin-bottom: 30px;
+border-radius: 5px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card img {
+  width: 150px;
+  }
+
+.card table img:hover {
+opacity: 0.6;
+}
+
+
+#photo-logo {
+  width: 150px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 2px #637092;
+}
+
+#blue-color{
+  color: #432163;
+}
+
+#btn-red{
+  color:white;
+  background: #DD5555;
+  padding: 7px;
+  border-radius: 8px;
+  box-shadow: 1px 1px 2px rgb(180,180,180);
+}
+
+#btn-red:hover{
+  color:white;
+  background: #D23333;
+}
